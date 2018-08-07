@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/aal-pip/!svn/ver/307/trunk/aal-pip/src/field/modem
+END
+lockfile.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/modem/lockfile.py
+END
+datefunc.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/modem/datefunc.py
+END
+RudicsModem.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/aal-pip/!svn/ver/307/trunk/aal-pip/src/field/modem/RudicsModem.py
+END
+RudicsModemSim.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/modem/RudicsModemSim.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/modem/Makefile
+END
+modem_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/modem/modem_config.py
+END

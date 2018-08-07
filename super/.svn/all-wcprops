@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/aal-pip/!svn/ver/472/trunk/aal-pip/src/field/super
+END
+ControlHFPower.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/aal-pip/!svn/ver/362/trunk/aal-pip/src/field/super/ControlHFPower.py
+END
+ControlCASESPower.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aal-pip/!svn/ver/416/trunk/aal-pip/src/field/super/ControlCASESPower.py
+END
+ControlEthernetPower.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/aal-pip/!svn/ver/175/trunk/aal-pip/src/field/super/ControlEthernetPower.py
+END
+MonitorRUDICSComm.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aal-pip/!svn/ver/299/trunk/aal-pip/src/field/super/MonitorRUDICSComm.py
+END
+super.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/aal-pip/!svn/ver/472/trunk/aal-pip/src/field/super/super.py
+END
+ControlModemPower.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aal-pip/!svn/ver/242/trunk/aal-pip/src/field/super/ControlModemPower.py
+END
+ControlFGSCPower.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/aal-pip/!svn/ver/221/trunk/aal-pip/src/field/super/ControlFGSCPower.py
+END
+RefreshStatus.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/aal-pip/!svn/ver/252/trunk/aal-pip/src/field/super/RefreshStatus.py
+END
+StoreHskp.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/aal-pip/!svn/ver/193/trunk/aal-pip/src/field/super/StoreHskp.py
+END
+super_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/aal-pip/!svn/ver/397/trunk/aal-pip/src/field/super/super_config.py
+END
+ControlTemp.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/aal-pip/!svn/ver/175/trunk/aal-pip/src/field/super/ControlTemp.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/super/Makefile
+END
+ControlGPSPower.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/aal-pip/!svn/ver/175/trunk/aal-pip/src/field/super/ControlGPSPower.py
+END

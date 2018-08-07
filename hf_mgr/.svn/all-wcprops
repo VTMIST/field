@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/aal-pip/!svn/ver/458/trunk/aal-pip/src/field/hf_mgr
+END
+hf_mgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/aal-pip/!svn/ver/399/trunk/aal-pip/src/field/hf_mgr/hf_mgr.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/aal-pip/!svn/ver/337/trunk/aal-pip/src/field/hf_mgr/Makefile
+END
+hf_mgr_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/aal-pip/!svn/ver/458/trunk/aal-pip/src/field/hf_mgr/hf_mgr_config.py
+END

@@ -1,0 +1,33 @@
+
+GPS Pulse Per Second Driver Notes
+---------------------------------
+
+The gps_pps driver handles the pulse per second output
+of the GPS receiver.  The receiver raises its PPS output
+for 100 msec when the UTC second changes.  The leading
+edge of the PPS pulse coincides with the start of a new UTC second.
+
+Gps_pps comes in the form of a kernel module. It is installed
+by executing the install_gps_pps.sh script.  The script removes
+old copies of the driver and /dev/gps_pps, installs the gps_pps
+module and creates /dev/gps_pps.  Remove_gps_pps.sh uninstalls
+the module and deletes /dev/gps_pps.
+
+The gps_pps driver is accessed through /dev/gps_pps just like
+any other driver.  See gps_pps.c for a description of the
+facilities that it provides.
+
+
+TS-7260 GPS PPS Hardware Setup
+------------------------------
+The PPS signal is connected to the TS-7260 through DIO_8.
+DIO8 is pin 8 on the DIO1 header.
+On the TS-7260, DIO_8 is connected to EP9302 processor
+GPIO Port F, Bit 1 which is mapped to the Linux GPIO
+number, EP93XX_GPIO_LINE_MCCD1.  The Linux GPIO interface
+is used to control the the GPIO pin (direction, interrupts
+etc.)  Gps_pps does not directly access the EP9302 hardware.
+
+The Pseudo PPS signal output is on DIO_7 which is pin 15 on
+the DIO1 header.
+

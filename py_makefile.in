@@ -1,0 +1,24 @@
+# Disable all default suffix rules
+.SUFFIXES:
+
+py_srcs = $(wildcard *.py)
+scripts = $(wildcard *.sh)
+targs = $(py_srcs) \
+		$(scripts) \
+		$(bins)
+timestamps = $(patsubst %,.%.ts,$(targs))
+
+.PHONY : all
+all : $(timestamps)
+
+# Copy the source file to the bin dir
+#  if the timestamp file is older than its
+#  matching source file.
+.%.ts : %
+	cp $(patsubst .%.ts,$(CURDIR)/%,$@) $(field_bin_dir) 
+	touch $(CURDIR)/$@
+
+.PHONY : clean
+clean :
+	-rm -f $(CURDIR)/.*.ts
+	-rm -f $(CURDIR)/*~

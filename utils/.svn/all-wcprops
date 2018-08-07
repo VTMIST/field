@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/aal-pip/!svn/ver/473/trunk/aal-pip/src/field/utils
+END
+BasicXMLRPCThread.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aal-pip/!svn/ver/112/trunk/aal-pip/src/field/utils/BasicXMLRPCThread.py
+END
+sock_utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/utils/sock_utils.py
+END
+ProxyPkt.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/utils/ProxyPkt.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/aal-pip/!svn/ver/234/trunk/aal-pip/src/field/utils/utils.py
+END
+proxy_utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/utils/proxy_utils.py
+END
+SockConsole.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/utils/SockConsole.py
+END
+sock_rpc.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/aal-pip/!svn/ver/235/trunk/aal-pip/src/field/utils/sock_rpc.py
+END
+logs.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/utils/logs.py
+END
+global_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/aal-pip/!svn/ver/473/trunk/aal-pip/src/field/utils/global_config.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/utils/Makefile
+END

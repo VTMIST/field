@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/aal-pip/!svn/ver/406/trunk/aal-pip/src/field/dio1
+END
+dio1.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/dio1/dio1.h
+END
+remove_dio1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/dio1/remove_dio1.sh
+END
+dio1.mod.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/dio1/dio1.mod.c
+END
+install_dio1.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/dio1/install_dio1.sh
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/aal-pip/!svn/ver/406/trunk/aal-pip/src/field/dio1/Makefile
+END
+dio1.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/aal-pip/!svn/ver/104/trunk/aal-pip/src/field/dio1/dio1.c
+END

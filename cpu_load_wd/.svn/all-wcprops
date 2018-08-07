@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/aal-pip/!svn/ver/472/trunk/aal-pip/src/field/cpu_load_wd
+END
+cpu_load_wd.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aal-pip/!svn/ver/472/trunk/aal-pip/src/field/cpu_load_wd/cpu_load_wd.py
+END
+time_waster.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/aal-pip/!svn/ver/472/trunk/aal-pip/src/field/cpu_load_wd/time_waster.py
+END
+cpu_load_wd_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/aal-pip/!svn/ver/472/trunk/aal-pip/src/field/cpu_load_wd/cpu_load_wd_config.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/aal-pip/!svn/ver/472/trunk/aal-pip/src/field/cpu_load_wd/Makefile
+END

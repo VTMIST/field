@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/aal-pip/!svn/ver/360/trunk/aal-pip/src/field/usb_mgr
+END
+usb_mgr.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/aal-pip/!svn/ver/360/trunk/aal-pip/src/field/usb_mgr/usb_mgr.py
+END
+usb_mgr_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/usb_mgr/usb_mgr_config.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/usb_mgr/Makefile
+END

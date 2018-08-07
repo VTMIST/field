@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/aal-pip/!svn/ver/246/trunk/aal-pip/src/field/svr_proxy
+END
+svr_proxy.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/aal-pip/!svn/ver/246/trunk/aal-pip/src/field/svr_proxy/svr_proxy.py
+END
+svr_proxy_config.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/svr_proxy/svr_proxy_config.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/svr_proxy/Makefile
+END

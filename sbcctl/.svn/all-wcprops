@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/aal-pip/!svn/ver/167/trunk/aal-pip/src/field/sbcctl
+END
+stat.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/sbcctl/stat.sh
+END
+logging.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/sbcctl/logging.c
+END
+board.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/aal-pip/!svn/ver/166/trunk/aal-pip/src/field/sbcctl/board.c
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/sbcctl/readme.txt
+END
+sbcctl.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/sbcctl/sbcctl.c
+END
+includes.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/sbcctl/includes.h
+END
+logging.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/aal-pip/!svn/ver/167/trunk/aal-pip/src/field/sbcctl/logging.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/sbcctl/Makefile
+END
+board.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/aal-pip/!svn/ver/2/trunk/aal-pip/src/field/sbcctl/board.h
+END
