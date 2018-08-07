@@ -80,6 +80,9 @@ cases_normal_schedule =[cases_sched_item(time(1, 0, 0),  time(2, 0, 0),  4000000
                         cases_sched_item(time(7, 0, 0),  time(8, 0, 0),  4000000),
                         cases_sched_item(time(13, 0, 0),  time(14, 0, 0),  4000000),
                         cases_sched_item(time(19, 0, 0),  time(20, 0, 0),  4000000)]
+
+# Months that CASES should run
+cases_window = [12, 1, 2, 3, 4]
                         
 # HF Transceiver Power Schedule
 class hf_sched_item:
@@ -105,6 +108,7 @@ hf_schedule = [ hf_sched_item(time(0, 30, 0),  time(0, 30 + power_on_minutes, 0)
 comm_max_init_time =            60 * 180    # 1.5 hours
 comm_max_down_time =            3600 * 2
 comm_max_up_time =              3600 * 12
+comm_low_power =                False
 
 # Housekeeping storage parameters
 hskp_temp_dir =                 ''.join([global_config.temp_dir, 'hskp/'])

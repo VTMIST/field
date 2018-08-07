@@ -158,7 +158,7 @@ class XMLRPCThread(BasicXMLRPCThread):
                 '> fg on|off\n',
                 '> sc on|off\n',
                 '> irid on|off\n',
-                '> hf on|off\n',
+                '> hf on|off|hp|lp\n',
                 '> cases on|off\n',
                 '> cases normal_mode|storm_mode|update_mode\n',
                 '> test\n',
@@ -228,6 +228,10 @@ class XMLRPCThread(BasicXMLRPCThread):
             self._control_modem_power.power_on()
         if desired_state == 'off':
             self._control_modem_power.power_off()
+        if desired_state == 'hp':
+            self._control_modem_power.power_high()
+        if desired_state == 'lp':
+            self._control_modem_power.power_low()
         return 'OK'
 
         

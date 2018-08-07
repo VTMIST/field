@@ -10,6 +10,7 @@ class ControlModemPower:
         self._log = log
         self._hw_mgr_lock = utils.Lock(self._log)
         self._kill_power = False
+        self._low_power = False
         self._power_cntl_cmd_pending = False
         self._timer = time.time()
         self._hw_mgr_server = None
@@ -36,8 +37,9 @@ class ControlModemPower:
                 return
         elif self._comm_state is 'powered_down':
             #self._log.debug('ControlModemPower: comm_state is powered_down')
+            self._low_power = super_config.comm_low_power
             now = datetime.now()
-            if (now.minute == 0): # or (now.minute == 30):
+            if (now.minute == 0): or ((now.minute == 30) and (self._low_power == False)):
                 self._power_up_modem()
                 self._data_xfer_timer = time.time()
                 self._comm_state = 'powered_up'
@@ -55,6 +57,14 @@ class ControlModemPower:
         self._kill_power = False
         self._power_cntl_cmd_pending = True
         
+    def power_low(self):
+        """Enable hourly modem calls vs every thirty minutes"""
+        self._low_power = True
+
+    def power_high(self):
+        """Enable calls every thirty minutes"""
+        self._low_power = False
+
     def _handle_power_control_cmd(self):
         self._power_cntl_cmd_pending = False
         if self._kill_power:

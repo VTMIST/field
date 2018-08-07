@@ -20,6 +20,7 @@ class ControlCASESPower:
         self._over_temp = False
         self._under_temp = False
         self._power_state = None
+        self._window_status = False
         self._thermostat_switch_on = True
         self._temp = 0
         self._hit_data_limit = False
@@ -69,6 +70,7 @@ class ControlCASESPower:
         temp_is_known = self._get_temp()
         thermostat_votes_yes = self._run_thermostat()
         scheduler_votes_yes = self._run_scheduler()
+        in_window = self._get_window_status()
         
         if self.mode == "update":
             # ignore the scheduler if in update mode
@@ -79,7 +81,8 @@ class ControlCASESPower:
             cases_should_be_on =    power_state_is_known \
                                 and temp_is_known \
                                 and thermostat_votes_yes \
-                                and scheduler_votes_yes
+                                and scheduler_votes_yes \
+                                and in_window
         if cases_should_be_on:
             desired_power_state = self.master_power_enable
         else:
@@ -87,6 +90,13 @@ class ControlCASESPower:
         self._turn_power_on_or_off(desired_power_state)
         #self._log_power_cntl_info()
         
+    def _get_window_status(self):
+        """ Set self.window_status.
+            Return True if CASES should operate this month.
+        """
+        self._window_status = datetime.now().month in super_config.cases_window
+        return self._window_status
+
     def _get_power_state(self):
         """ Set self._power_state.
             Return True if the power state is known.
