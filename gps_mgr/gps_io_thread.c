@@ -852,8 +852,8 @@ static void HandleRxStrs(void)
         }
         else
         {
-        	//sprintf(_log_msg, "HandleRxStrs: got %s", str);
-        	//log_write(str);
+        	sprintf(_log_msg, "HandleRxStrs: got %s", str);
+        	log_write(str);
         }
         DequeueRxStr();
     }
